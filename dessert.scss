@@ -144,3 +144,27 @@ nav{
         }
     }
 }
+.pagination{
+    width:940px;
+    margin: 24px auto 0px auto;
+    display: flex;
+    justify-content: flex-end;
+    .pageitem{
+        display:flex;
+        width:300px;
+        height:60px;
+        .option{
+            width:60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #EAF0ED;
+            color:#3F5D45;
+            font: normal normal 300 20px/20px PingFang TC;
+        }
+        .option:hover{
+            background-color: #3F5D45;
+            color:white;
+        }
+    }
+}

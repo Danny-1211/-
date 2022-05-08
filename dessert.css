@@ -215,4 +215,44 @@ nav a {
   font-size: 24px;
   font: normal normal 600 24px/20px PingFang TC;
 }
+
+.pagination {
+  width: 940px;
+  margin: 24px auto 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.pagination .pageitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  height: 60px;
+}
+
+.pagination .pageitem .option {
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #EAF0ED;
+  color: #3F5D45;
+  font: normal normal 300 20px/20px PingFang TC;
+}
+
+.pagination .pageitem .option:hover {
+  background-color: #3F5D45;
+  color: white;
+}
 /*# sourceMappingURL=dessert.css.map */
