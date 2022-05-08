@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  width: 300px;
+  padding: 30px 0px 0px 42px;
+}
+
+nav {
+  width: 500px;
+  padding: 30px 0px 0px 42px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  text-align: left;
+}
+
+nav ul li {
+  padding: 10px 0px 8px 0px;
+}
+
+nav a {
+  color: #3F5D45;
+  font: normal normal 600 16px/73px PingFang TC;
+}
+
+.banner {
+  width: 940px;
+  height: 500px;
+  margin: 24px auto 0px auto;
+}
+
+.container {
+  width: 960px;
+  margin: 24px auto 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.menu .category {
+  height: 65px;
+  background-color: #3F5D45;
+  color: white;
+  font: normal normal 600 24px/40px PingFang TC;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: #EAF0ED  1px solid;
+}
+
+.menu .item {
+  height: 65px;
+  color: #3F5D45;
+  font: normal normal 600 24px/40px PingFang TC;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: #EAF0ED  1px solid;
+}
+
+.menu .item:hover {
+  background-color: #EAF0ED;
+}
+
+.card {
+  width: 640px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.fooditem {
+  margin: 0px 20px 20px 0px;
+  width: 300px;
+  height: 436px;
+}
+
+.fooditem .foodimg {
+  position: relative;
+}
+
+.fooditem .foodimg .special {
+  width: 36px;
+  height: 106px;
+  background-color: #3F5D45;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.fooditem .foodimg .special p {
+  margin: 10px;
+  font: normal normal 600 16px/20px PingFang TC;
+  color: #EAF0ED;
+}
+
+.fooditem .foodimg .favorite {
+  position: absolute;
+  top: 20px;
+  right: 18px;
+}
+
+.fooditem .foodinfor {
+  width: 300px;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fooditem .foodinfor .title {
+  width: 173px;
+  font-size: 20px;
+  color: #3F5D45;
+  font: normal normal 300 20px/20px PingFang TC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #EAF0ED;
+}
+
+.fooditem .foodinfor .price {
+  width: 127px;
+  font-size: 20px;
+  color: #3F5D45;
+  font: normal normal 300 20px/20px PingFang TC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #EAF0ED;
+}
+
+.fooditem .addcart {
+  width: 300px;
+  height: 65px;
+  padding: 16px 90px;
+  background-color: #EAF0ED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fooditem .addcart button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  color: #3F5D45;
+  font-size: 24px;
+  font: normal normal 600 24px/20px PingFang TC;
+}
+/*# sourceMappingURL=dessert.css.map */
